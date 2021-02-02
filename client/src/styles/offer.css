@@ -1,0 +1,75 @@
+
+#offer-container header{
+  display: flex;
+  align-items: center;
+}
+
+
+#offer-container header a{
+  width: 260px;
+  margin-left: auto;
+  margin-top: 0;
+}
+
+
+
+#offer-container  .offer-form {
+  width:  700px;
+  height: 500px;
+
+  margin-top: 64px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+#offer-container .offer-form fieldset {
+  border: 0;
+}
+
+#offer-container  .offer-form fieldset legend {
+  width: 100%;
+
+  font-size: 34px;
+  line-height: 24px;
+  color: #000;
+  font-weight: 400;
+
+  border-bottom: 1px solid #6CDFEA;
+  margin-bottom: 40px;
+  padding-bottom: 24px;
+}
+
+#offer-container  .offer-form .input-block label {
+  color: #000000;
+  margin-bottom: 10px;
+  line-height: 24px;
+  font-size:20px;
+}
+
+#offer-container  .offer-form .input-block + .input-block {
+  margin-top: 24px;
+}
+
+ .confirm-btn {
+  width: 70px;
+  height: 64px;
+  cursor: pointer;
+  background: #fff;
+  border-radius: 20px;
+  color: #000000;
+  font-weight: 800;
+  border: 1px solid #6CDFEA;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ 
+}
+

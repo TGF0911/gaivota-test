@@ -1,0 +1,84 @@
+#page-map {
+  width: 100vw;
+  height: 100vh;
+}
+
+#page-map header{
+  display: flex;
+  align-items: center;
+}
+
+#page-map header a{
+  width: 260px;
+  margin-left: auto;
+  margin-top: 0;
+}
+
+
+#page-map .leaflet-container {
+  z-index: 0;
+}
+
+/* Pop Up - Marker */
+
+#page-map .map-popup .leaflet-popup-content-wrapper {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  box-shadow: none;
+}
+
+#page-map .map-popup .leaflet-popup-content h3 {
+  color: #0089a5;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 8px 12px;
+}
+
+#page-map .map-popup .leaflet-popup-content p {
+  color: #042f38;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 8px 12px;
+  line-height: 15px;
+}
+
+#page-map .map-popup .leaflet-popup-tip-container {
+  display: none;
+}
+
+
+#page-map .infos ul{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  list-style: none;
+}
+
+#page-map .infos ul li{
+  background: #fff;
+  padding: 24px;
+  border-radius: 8px;
+  border: 1px solid #6CDFEA;
+  position: relative;
+}
+
+#page-map .infos ul li strong{
+  display: block;
+  margin-bottom: 6px;
+  color:#000;
+}
+
+#page-map .infos ul li strong:not(:first-child){
+  margin-top: 10px;
+}
+
+#page-map .infos ul li p{
+  color:#414149;
+  line-height: 21px;
+  font-size: 16;
+}
+
+#page-map .infos ul li a{
+  margin: 8px;
+  border: 2px solid #6CDFEA;
+}
